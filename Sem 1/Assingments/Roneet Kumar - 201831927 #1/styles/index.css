@@ -1,0 +1,132 @@
+/* reseting some default margin and padding from all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+:root {
+    --theme-color: #94746d;
+}
+
+/* if website has to be centered instead of full screen uncomment the code block written below */
+/* .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+/* navigation bar */
+nav {
+    width: 100%;
+    background: #181818;
+    position: sticky;
+    top: 0;
+}
+
+/* navigation list */
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+/* navigation list items */
+nav ul a li {
+    display: inline-block;
+    padding: 10px;
+    margin: 28px 30px 28px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    transition: all 125ms ease-in-out;
+}
+
+/* list item's hover state and current navigation page */
+li:hover, .nav-selected {
+    background: var(--theme-color);
+}
+
+/* navigation links */
+nav ul a {
+    text-decoration: none;
+}
+
+/* header background image */
+header img, footer img {
+    width: 100%;
+}
+
+/* product information section */
+section.product-information {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* product image */
+section.product-information img.product-img {
+    width: 40%;
+    margin: 20px 0 10px 0;
+}
+
+/* product name */
+section.product-information h6 {
+    font-size: 28px;
+}
+
+/* product price */
+section.product-information h1 {
+    font-size: 96px;
+    font-weight: lighter;
+}
+
+/* call to action button */
+section.product-information button {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 18px 36px;
+    margin: 26px;
+    background: #fff;
+    color: var(--theme-color);
+    border: 3px solid var(--theme-color);
+    border-radius: 2px;
+    transition: all 125ms ease-in-out;
+    outline: 0
+}
+
+/* call to action button's hover state */
+section.product-information button:hover {
+    background: var(--theme-color);
+    color: #fff;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+/* call to action button's active state */
+section.product-information button:active {
+    background: var(--theme-color);
+    color: #fff;
+    box-shadow: none;
+}
+
+/* product rating */
+section.product-information img.rating {
+    width: 160px;
+    margin: 10px;
+}
+
+/* footer background image */
+footer img {
+    display: block;
+    margin-top: 50px;
+}
+
+/* media queries for responsive nav */
+@media only screen and (max-width : 900px) {
+    nav ul a li {
+        margin: 0;
+        padding: 22px;
+        display: block;
+        text-align: center;
+    }
+}
