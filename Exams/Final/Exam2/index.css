@@ -1,0 +1,46 @@
+body{
+    background: url('1.jpg');
+    background-size: cover; 
+}
+
+h1,h2{
+    text-decoration: underline;
+    text-align: center;
+    color: gold;
+    font-family: sans-serif
+}
+
+table{
+    color: white;
+    margin: auto;
+    position: relative;
+}
+
+td{
+    vertical-align: top;
+    padding: 4px 20px;
+}
+
+.person,.name,.days,.hotelError{
+    color: salmon;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:  0 0 10px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: max-content
+}
+
+select{
+    overflow: hidden;
+}
+
+.reciept{
+    padding: 30px;
+    background: #fff;
+    width: max-content;
+    margin: 50px auto;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    border-radius: 4px; 
+    display: none;
+}

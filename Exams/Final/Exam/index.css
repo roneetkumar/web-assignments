@@ -1,0 +1,64 @@
+.form{
+    width: 800px;
+    margin: auto;
+    background: orangered;
+    padding: 20px
+}
+
+header,main,footer{
+    background: lightgoldenrodyellow;
+    padding: 20px 10px;
+    margin: 10px
+}
+
+h1{
+    border: 2px solid darkslategrey;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input,.radio,.checkbox{
+    width: 40%;
+    padding: 20px;
+    border: 2px solid darkslategrey;
+    float: left;   
+}
+
+.input{
+    margin-right: 10px;
+}
+
+.radio,.checkbox{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    margin-left: 10px;
+}
+
+.lastname{
+    margin-top: 40px;
+}
+
+.rbtnError,.cbtnError,.fnameError,.lnameError{
+    margin-top: 10px;
+    color: red
+}
+
+input[type='submit']{
+    float: right;
+}
+
+table{
+    margin: auto;
+}
+
+table td{
+    padding: 10px 20px;
+}
+
+.clear{
+    clear: both;
+}
